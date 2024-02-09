@@ -1,16 +1,21 @@
 {
   "name": "curso_node_udemy",
   "version": "1.0.0",
-  "description": "",
+  "description": "Curso Udemy Node",
+  "type": "module",
   "main": "teste.js",
   "scripts": {
     "test": "node teste.js",
-    "start": "node app.js"
+    "start": "node app.js",
+    "dev": "npx nodemon app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
   }
 }
